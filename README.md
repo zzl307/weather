@@ -5,7 +5,7 @@
 ## 安装
 
 ```sh
-$ composer require overtrue/weather -vvv
+$ composer require zzl307/weather -vvv
 ```
 
 ## 配置
@@ -15,7 +15,7 @@ $ composer require overtrue/weather -vvv
 ## 使用
 
 ```php
-use Overtrue\Weather\Weather;
+use zzl307\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
@@ -186,7 +186,7 @@ array | string   getWeather(string $city, string $type = 'base', string $format 
 WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
 ```
 
-可以用两种方式来获取 `Overtrue\Weather\Weather` 实例：
+可以用两种方式来获取 `zzl307\Weather\Weather` 实例：
 
 #### 方法参数注入
 
