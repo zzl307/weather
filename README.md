@@ -37,9 +37,9 @@ $response = $weather->getWeather('南京');
     "infocode": "10000",
     "lives": [
         {
-            "province": "广东",
+            "province": "江苏省",
             "city": "南京市",
-            "adcode": "440300",
+            "adcode": "320100",
             "weather": "中雨",
             "temperature": "27",
             "winddirection": "西南",
@@ -67,8 +67,8 @@ $response = $weather->getWeather('南京', 'all');
     "forecasts": [
         {
             "city": "南京市", 
-            "adcode": "440300", 
-            "province": "广东", 
+            "adcode": "320100", 
+            "province": "江苏省", 
             "reporttime": "2018-08-21 11:00:00", 
             "casts": [
                 {
@@ -143,9 +143,9 @@ $response = $weather->getWeather('南京', 'all', 'xml');
     <infocode>10000</infocode>
     <lives type="list">
         <live>
-            <province>广东</province>
+            <province>江苏省</province>
             <city>南京市</city>
-            <adcode>440300</adcode>
+            <adcode>320100</adcode>
             <weather>中雨</weather>
             <temperature>27</temperature>
             <winddirection>西南</winddirection>
