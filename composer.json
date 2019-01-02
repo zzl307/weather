@@ -1,0 +1,28 @@
+{
+    "name": "zzl307\/weather",
+    "description": "weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhaobin",
+            "email": "qq1013446945@126.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zzl307\\Weather\\": "src"
+        }
+    }
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overtrue\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
