@@ -17,7 +17,7 @@
         "psr-4": {
             "Zzl307\\Weather\\": "src"
         }
-    }
+    },
     "extra": {
         "laravel": {
             "providers": [
