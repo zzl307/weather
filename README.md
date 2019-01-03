@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/zzl307/weather.svg?branch=master)](https://travis-ci.org/zzl307/weather)
 
+![StyleCI build status](https://github.styleci.io/repos/163817067/shield)
+
 ## 安装
 
 ```sh
