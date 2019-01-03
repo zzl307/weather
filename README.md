@@ -2,7 +2,7 @@
 
 基于  [高德开放平台](https://lbs.amap.com/dev/id/newuser) 的 PHP 天气信息组件。
 
-[![Build Status](https://travis-ci.org/overtrue/weather.svg?branch=master)](https://travis-ci.org/overtrue/weather)
+[![Build Status](https://travis-ci.org/zzl307/weather.svg?branch=master)](https://travis-ci.org/zzl307/weather)
 
 ## 安装
 
